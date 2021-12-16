@@ -12,20 +12,20 @@ const io = new Server(server)
 
 //Kết nối mysql
 
-// var mysql = require('mysql')
-// var connection = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: '',
-//   database: 'unitygamechien'
-// })
+var mysql = require('mysql')
+var connection = mysql.createConnection({
+  host: 'db4free.net',
+  user: 'duyluandevil',
+  password: 'Phamduyluan2000',
+  database: 'chienunity'
+})
 
 // //Kết nối mysql
-// connection.connect(function(err){
-//     if(err) throw err;
+connection.connect(function(err){
+    if(err) throw err;
 
-//     console.log("Đã kết nối với DTB");
-// })
+    console.log("Đã kết nối với DTB");
+})
 
 let accountLoginSuccess
 //User kết nối với Socket

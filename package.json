@@ -1,0 +1,12 @@
+{
+    "name": "dacn",
+    "version": "0.0.1",
+    "private": "true",
+    "main":"server.js",
+    "dependencies": {
+      "express": "*",
+      "socket.io": "*",
+      "mysql": "*"
+    }
+  }
+  

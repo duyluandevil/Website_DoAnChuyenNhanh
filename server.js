@@ -13,12 +13,12 @@ const io = new Server(server)
 //Kết nối mysql
 
 var mysql = require('mysql')
-// var connection = mysql.createConnection({
-//   host: 'db4free.net',
-//   user: 'duyluandevil',
-//   password: 'Phamduyluan2000',
-//   database: 'chienunity'
-// })
+var connection = mysql.createConnection({
+  host: 'db4free.net',
+  user: 'duyluandevil',
+  password: 'Phamduyluan2000',
+  database: 'chienunity'
+})
 
 // //Kết nối mysql
 // connection.connect(function(err){

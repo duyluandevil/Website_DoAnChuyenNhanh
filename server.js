@@ -21,11 +21,11 @@ var connection = mysql.createConnection({
 })
 
 // //Kết nối mysql
-// connection.connect(function(err){
-//     if(err) throw err;
+connection.connect(function(err){
+    // if(err) throw err;
 
-//     console.log("Đã kết nối với DTB");
-// })
+    console.log("Đã kết nối với DTB");
+})
 
 let accountLoginSuccess
 //User kết nối với Socket

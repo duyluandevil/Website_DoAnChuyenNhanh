@@ -12,7 +12,7 @@ const io = new Server(server)
 
 //Kết nối mysql
 
-// var mysql = require('mysql')
+var mysql = require('mysql')
 // var connection = mysql.createConnection({
 //   host: 'db4free.net',
 //   user: 'duyluandevil',

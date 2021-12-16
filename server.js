@@ -22,7 +22,7 @@ var connection = mysql.createConnection({
 
 // //Kết nối mysql
 connection.connect(function(err){
-    if(err) throw err;
+    // if(err) throw err; địt chị mày
 
     console.log("Đã kết nối với DTB");
 })
